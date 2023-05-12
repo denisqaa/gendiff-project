@@ -2,7 +2,9 @@ install:
 		npm ci
 publish:
 		npm publish --dry-run
-brain-games:
-		node bin/brain-games.js
+genDiff:
+		node bin/gendiff.js
 lint:
 		npx eslint
+test-coverage:
+		npm test

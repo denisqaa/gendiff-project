@@ -4,10 +4,10 @@
   "description": "[![Actions Status](https://github.com/denisqaa/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/denisqaa/frontend-project-44/actions)",
   "main": "bin/gendiff.js",
   "bin": {
-    "gendiff": "bin/gendiff.js"
+    "genDiff": "bin/gendiff.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -19,12 +19,15 @@
     "url": "https://github.com/denisqaa/frontend-project-44/issues"
   },
   "homepage": "https://github.com/denisqaa/frontend-project-44#readme",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "commander": "^10.0.0",
     "eslint": "8.22.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "expect": "^29.5.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
   }
 }
