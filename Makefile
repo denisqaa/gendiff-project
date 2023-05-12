@@ -7,7 +7,7 @@ genDiff:
 lint:
 		npx eslint
 test:
-	npm test --test-reporter=spec
-test-coverage:
 		npm test
+test-coverage:
+		npm test -- --coverage --coverageProvider=v8
 

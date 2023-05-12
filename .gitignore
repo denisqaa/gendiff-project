@@ -5,3 +5,5 @@ node_modules
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+#generated coverages
+/coverage/
